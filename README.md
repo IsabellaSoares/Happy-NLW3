@@ -15,3 +15,9 @@ Projeto desenvolvido durante o evento Next Level Week 3, promovido pela [Rockets
 ## Sobre o app _Happy_
 
 O app **Happy** busca incentivar visitas à orfanatos infantis, levando alegria e carinho à diversas crianças por todo o país. A NWL#3 aconteceu durante a semana do Dia das Crianças, então o tema não poderia ser melhor! No app estão reunidos uma série de orfanatos, contendo informações de contato, localização e condições de visita; também é possível realizar o cadastro de novos orfanatos.
+
+## Backend
+
+- Typescript
+- ts-node-dev
+- Express
