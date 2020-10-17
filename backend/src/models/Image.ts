@@ -10,9 +10,6 @@ export default class Image {
     @Column()
     path: string;
     
-    @Column()
-    latitude: number;
-
     @ManyToOne(() => Orphanage, orphanage => orphanage.images)
     @JoinColumn({ name: 'orphanage_id' })
     orphanage: Orphanage
