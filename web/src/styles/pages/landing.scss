@@ -6,73 +6,73 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-#page-landing .content-wrapper {
-  position: relative;
+  .content-wrapper {
+    position: relative;
+  
+    width: 80%;
+    height: 80%;
+  
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    background: url('../../images/landing.svg') no-repeat 80% center;
+    background-size: contain;
 
-  width: 80%;
-  height: 80%;
+    main {
+      max-width: 358px;
 
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: space-between;
+      h1 {
+        font-size: 7vh;
+        font-weight: 900;
+        line-height: 8vh;
+      }
 
-  background: url('../../images/landing.svg') no-repeat 80% center;
-  background-size: contain;
-}
+      p {
+        margin-top: 40px;
+        font-size: 3vh;
+        line-height: 5vh;
+      }
+    }
 
-#page-landing .content-wrapper main {
-  max-width: 358px;
-}
+    .location {
+      position: absolute;
+      right: 0;
+      top: 0;
+    
+      font-size: 3vh;
+      line-height: 5vh;
+    
+      display: flex;
+      flex-direction: column;
+    
+      text-align: right;
 
-#page-landing .content-wrapper main h1 {
-  font-size: 7vh;
-  font-weight: 900;
-  line-height: 8vh;
-}
+      strong {
+        font-weight: 800;
+      }
+    }
 
-#page-landing .content-wrapper main p {
-  margin-top: 40px;
-  font-size: 3vh;
-  line-height: 5vh;
-}
+    .enter-app {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    
+      width: 10vh;
+      height: 10vh;
+      background: #ffd666;
+      border-radius: 3.5vh;
+    
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.2s;
 
-.content-wrapper .location {
-  position: absolute;
-  right: 0;
-  top: 0;
-
-  font-size: 3vh;
-  line-height: 5vh;
-
-  display: flex;
-  flex-direction: column;
-
-  text-align: right;
-}
-
-.content-wrapper .location strong {
-  font-weight: 800;
-}
-
-.content-wrapper .enter-app {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-
-  width: 10vh;
-  height: 10vh;
-  background: #ffd666;
-  border-radius: 3.5vh;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.2s;
-}
-
-.content-wrapper .enter-app:hover {
-  background: #96feff;
+      &:hover {
+        background: #96feff;
+      }
+    }
+  }
 }
