@@ -1,13 +1,11 @@
 import React from "react"
 import { Map, Marker, TileLayer } from 'react-leaflet'
-import L from 'leaflet'
 import { FiPlus } from "react-icons/fi"
 
-import mapMarkerImg from '../images/map_marker.svg'
 import Sidebar from "../components/Sidebar"
 import mapIcon from '../utils/mapIcon'
 
-import '../styles/pages/create-orphanage.css'
+import '../styles/pages/create-orphanage.scss'
 
 const CreateOrphanage = () => (
   <div id="page-create-orphanage">

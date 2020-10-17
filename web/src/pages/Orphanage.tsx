@@ -8,7 +8,7 @@ import Sidebar from "../components/Sidebar"
 import mapIcon from '../utils/mapIcon'
 import api from '../services/api'
 
-import '../styles/pages/orphanage.css'
+import '../styles/pages/orphanage.scss'
 
 interface Orphanage {
   latitude: number

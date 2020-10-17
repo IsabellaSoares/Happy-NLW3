@@ -1,10 +1,10 @@
 import React from "react";
-import { FiClock, FiInfo, FiArrowLeft } from "react-icons/fi";
+import { FiArrowLeft } from "react-icons/fi";
 import { useHistory } from 'react-router-dom';
 
 import mapMarkerImg from '../images/map_marker.svg';
 
-import '../styles/components/sidebar.css'
+import '../styles/components/sidebar.scss'
 
 const Sidebar = () => {
     const { goBack } = useHistory();

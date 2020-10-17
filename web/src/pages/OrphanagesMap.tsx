@@ -9,7 +9,7 @@ import api from '../services/api'
 
 import 'leaflet/dist/leaflet.css'
 
-import '../styles/pages/orphanages-map.css'
+import '../styles/pages/orphanages-map.scss'
 
 interface Orphanage {
   id: number
