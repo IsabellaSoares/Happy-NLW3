@@ -54,7 +54,7 @@ const CreateOrphanage = () => {
 
     data.append('name', name)
     data.append('latitude', String(position.latitude))
-    data.append('longitude',String( position.longitude))
+    data.append('longitude',String(position.longitude))
     data.append('instructions', instructions)
     data.append('about', about)
     data.append('opening_hours', opening_hours)
