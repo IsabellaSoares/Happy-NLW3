@@ -6,12 +6,16 @@ import { useNavigation } from '@react-navigation/native';
 
 import MapMarker from '../images/map-marker.png'
 
-export default function OrphanagesMap() {
-    const navigation = useNavigation()
+const OrphanagesMap = () => {
+  const navigation = useNavigation()
     
-    const handleNavigateToOrphanageDetails = () => {
-        navigation.navigate('OrphanageDetails')
-    }
+  const handleNavigateToOrphanageDetails = () => {
+    navigation.navigate('OrphanageDetails')
+  }
+
+  const handleNavigateToCreateOrphanage = () => {
+    navigation.navigate('SelectMapPosition')
+  }
 
   return (
     <View style={styles.container}>
@@ -39,7 +43,7 @@ export default function OrphanagesMap() {
       <View style={styles.footer}>
         <Text style={styles.footerText}>2 orfanatos encontrados</Text>
 
-        <TouchableOpacity style={styles.createOrphanageButton} onPress={() => {}}>
+        <TouchableOpacity style={styles.createOrphanageButton} onPress={handleNavigateToCreateOrphanage}>
           <Feather name="plus" size={20} color="#FFF" />
         </TouchableOpacity>
       </View>
@@ -100,3 +104,5 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   }
 });
+
+export default OrphanagesMap
