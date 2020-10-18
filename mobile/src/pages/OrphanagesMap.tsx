@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { StyleSheet, View, Dimensions, Text } from 'react-native';
+import React, { useState, useEffect } from 'react'
+import { StyleSheet, View, Dimensions, Text } from 'react-native'
 import MapView, { Marker, Callout, PROVIDER_GOOGLE } from 'react-native-maps'
 import { Feather } from '@expo/vector-icons'
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native'
 import { RectButton } from 'react-native-gesture-handler'
 
 import api from '../services/api'
@@ -66,7 +66,7 @@ const OrphanagesMap = () => {
         </RectButton>
       </View>
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -121,6 +121,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center'
   }
-});
+})
 
 export default OrphanagesMap

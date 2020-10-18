@@ -1,17 +1,17 @@
-import React from 'react';
-import { View, StyleSheet, Dimensions, Text } from 'react-native';
+import React from 'react'
+import { View, StyleSheet, Dimensions, Text } from 'react-native'
 
-import { useNavigation } from '@react-navigation/native';
-import { RectButton } from 'react-native-gesture-handler';
-import MapView, { Marker } from 'react-native-maps';
+import { useNavigation } from '@react-navigation/native'
+import { RectButton } from 'react-native-gesture-handler'
+import MapView, { Marker } from 'react-native-maps'
 
-import mapMarkerImg from '../../images/map-marker.png';
+import mapMarkerImg from '../../images/map-marker.png'
 
 const SelectMapPosition = () => {
-  const navigation = useNavigation();
+  const navigation = useNavigation()
 
   function handleNextStep() {
-    navigation.navigate('OrphanageData');
+    navigation.navigate('OrphanageData')
   }
 
   return (
