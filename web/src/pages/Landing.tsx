@@ -4,16 +4,20 @@ import { FiArrowRight } from 'react-icons/fi'
 
 import '../styles/pages/landing.scss'
 
-import logoImg from '../images/logo.svg'
+import logoImg from '../images/logo.png'
+import mapMarkerImg from '../images/map_marker.svg'
 
 const Landing = () => 
     <div id="page-landing">
       <div className="content-wrapper">
-        <img src={logoImg} alt="Happy" />
+        <div style={{ display: 'flex' }}>
+          <img src={mapMarkerImg} alt="Happy" width='70px' />
+          <img src={logoImg} alt="Happy" width='210px' />
+        </div>
 
         <main>
-          <h1>Leve felicidade para o mundo</h1>
-          <p>Visite orfanatos e mude o dia de muitas crianças.</p>
+          <h1>Uma xícara de felicidade</h1>
+          <p>Visite cafeterias e torne seu dia mais feliz.</p>
         </main>
 
         <div className="location">
@@ -21,7 +25,7 @@ const Landing = () =>
           <span>São Paulo</span>
         </div>
 
-        <Link to="/map" className="enter-app"><FiArrowRight size={26} color="rgba(0, 0, 0, 0.6)" /></Link>
+        <Link to="/map" className="enter-app"><FiArrowRight size={26} color="#fff" /></Link>
       </div>
     </div>
   

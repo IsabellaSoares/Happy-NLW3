@@ -1,14 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    color: #fff;
-    background: #ebf2f5;
+  color: #7f3d01;
+  background: linear-gradient(329.54deg, #f0daab 0%, #f7ebd1 100%);
 }
 
-body, input, button, textarea {
-    font: 600 18px Nunito, sans-serif;
+body,
+input,
+button,
+textarea {
+  font: 600 18px Nunito, sans-serif;
 }

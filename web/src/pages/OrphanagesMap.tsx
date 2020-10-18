@@ -31,10 +31,10 @@ const OrphanagesMap = () => {
     <div id='page-map'>
       <aside>
         <header>
-          <img src={mapMarkerImg} alt='Happy' />
+          <img src={mapMarkerImg} alt='Happy' width='100px' />
 
-          <h2>Escolha o seu orfanato</h2>
-          <p>Muitas crianças estão esperando a sua visita :)</p>
+          <h2>Escolha a sua cafeteria</h2>
+          <p>Seu dia pede uma boa xícara de café</p>
         </header>
 
         <footer>
